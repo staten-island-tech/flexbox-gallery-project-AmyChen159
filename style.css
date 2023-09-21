@@ -1,3 +1,9 @@
+body {
+    background-color: pink; 
+}
+h1 { 
+    text-align: center;
+}
 .bigmother {
     width: 27vw;
     height: 60vh;
