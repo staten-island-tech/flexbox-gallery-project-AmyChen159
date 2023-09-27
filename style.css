@@ -1,46 +1,46 @@
 body {
-    background-color: #4F709C; 
+  background-color: #213555;
 }
-h1 { 
-    color: #F0F0F0;
-    text-align: center;
-    font-size: 500%;
-    font-weight: bold;
-    background-color:#213555; 
-    margin: 10px auto;
-    margin-top: 30px;
-    width: 40vw; 
-    padding: 5px;  
-    border: 0.2em solid #111c2e;
-    font-family: 'Cormorant Garamond', serif;
+h1 {
+  color: #f0f0f0;
+  text-align: center;
+  font-size: 500%;
+  font-weight: bold;
+  background-color: #4f709c;
+  margin: 10px auto;
+  margin-top: 30px;
+  width: 40vw;
+  padding: 5px;
+  border: 0.2em solid #111c2e;
+  font-family: "Cormorant Garamond", serif;
 }
 .flex-container {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    margin: 5%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin: 5%;
 }
 .card {
-    width: 23vw;
-    height: 50vh;
-    background-color: #DCC176;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-between;
-    border: 0.1em solid #6e613d;
-    box-shadow: 0px 0px 10px;
-    margin: 10px auto;
-    transition: all 0.4s;
+  width: 23vw;
+  height: 50vh;
+  background-color: #dcc176;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  border: 0.3em solid #8a7a4f;
+  box-shadow: 0px 0px 10px;
+  margin: 20px auto;
+  transition: all 0.4s;
 }
 .card:hover {
-    background-color: #111c2e;
-    transform: scale(0.9);
+  background-color: #6e613d;
+  transform: scale(0.9);
 }
 .card-image {
-    width: 300px;
-    height: 300px;
+  width: 300px;
+  height: 300px;
 }
 .card-desc {
-    font-family: 'PT Sans Narrow', sans-serif;
+  font-family: "PT Sans Narrow", sans-serif;
 }
