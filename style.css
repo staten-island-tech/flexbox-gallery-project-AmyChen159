@@ -43,7 +43,7 @@ h1:hover{
   background-color: #6e613d;
   transform: scale(0.9);
   border: #6e613d;
-  animation: pulse 3s infinite linear;
+  animation: pulse 2s infinite linear;
 }
 @keyframes pulse {
   0% {
