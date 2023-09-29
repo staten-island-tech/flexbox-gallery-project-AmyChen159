@@ -28,16 +28,15 @@ h1:hover{
   margin: 5%;
 }
 .card {
-  width: 23vw;
-  height: 50vh;
+  width: 27%;
   background-color: #dcc176;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: space-between;
   border: 0.3em solid #8a7a4f;
-  box-shadow: 0px 0px 10px;
-  margin: 20px auto;
+  box-shadow: 0px 0px 20px;
+  margin: 2% auto;
   transition: all 0.2s;
 }
 .card:hover {
@@ -64,8 +63,6 @@ h1:hover{
   }
 }
 .card-image {
-  width: 300px;
-  height: 300px;
   transform: all 0.5s;
 }
 .card-image:hover {
